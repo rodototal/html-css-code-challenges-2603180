@@ -52,3 +52,18 @@ body {
 [aria-current="page"] {
   background-color: #ddd;
 }
+
+@media screen and (max-width: 450px) {
+  .header {
+    display: unset;
+  }
+
+  .header__logo {
+    display: block;
+    margin: auto auto;
+  }
+
+  .nav__link {
+    padding-inline: 0.5rem;
+  }
+}
