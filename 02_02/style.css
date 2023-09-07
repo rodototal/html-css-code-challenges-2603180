@@ -81,4 +81,5 @@ body {
 .hero {
   text-align: center;
   margin-block-end: 1rem;
+  margin-inline: max(1rem, 50% - 30rem/2); 
 }

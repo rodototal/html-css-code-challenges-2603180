@@ -112,6 +112,10 @@ body {
   color: black;
 }
 
+.button:focus-visible, a:focus-visible {
+  outline-color : red !important;
+}
+
 .button--secondary {
   background-color: rgb(221, 221, 221);
   color: black;

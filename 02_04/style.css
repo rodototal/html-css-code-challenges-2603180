@@ -93,12 +93,12 @@ body {
   padding-inline: 1.5em;
   padding-block: 0.5em;
   margin: 1rem 0.5rem;
-
+  transition: 0.7s all ease-in;
   border: 1px solid black;
   border-radius: 0.25rem;
   background: black;
   color: white;
-
+  font-family: inherit;
   display: inline-flex;
   justify-content: center;
   align-items: center;
