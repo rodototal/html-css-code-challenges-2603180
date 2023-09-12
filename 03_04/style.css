@@ -154,6 +154,7 @@ a:focus-visible {
   background-color: rgb(35, 35, 35);
   color: white;
   padding: 0.5rem;
+  position: relative;
 }
 
 .top {
@@ -164,4 +165,7 @@ a:focus-visible {
   color: #fff;
   background: rgba(114, 112, 112, 0.429);
   display: inline-block;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }

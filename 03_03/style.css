@@ -127,12 +127,18 @@ a:focus-visible {
 }
 .imagecontainer {
   /* Anordnung der Karten nebeneinander */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-flow: row;
+  gap: 2rem;
 }
 .photo {
   background-color: rgb(255, 250, 250);
   border-radius: 0.5rem;
   border: 1px solid rgb(237, 229, 229);
   margin: 0;
+  min-width: 200px;
+  max-width: 20vw;
 }
 
 .photo__img {
